@@ -164,10 +164,6 @@ params:
       category: Production
     - name: terminal.zealdyhills.work
       category: Production
-    - name: touring.zealdyhills.work
-      category: Production
-    - name: touring-be.zealdyhills.work
-      category: Production
     - name: llm.zealdyhills.work
       category: Production
     - name: memo.zealdyhills.work
@@ -176,11 +172,11 @@ params:
       category: Production
     - name: tools.zealdyhills.work
       category: Production
-    - name: martell.zealdyhills.work
-      category: Production
     - name: gu.zealdyhills.work
       category: Production
     - name: notes.zealdyhills.work
+      category: Production
+    - name: martell.zealdyhills.work
       category: Production
 
     - name: metube.zealdyhills.work
@@ -205,6 +201,8 @@ params:
     - name: research.zealdyhills.work
       category: For fun
     - name: motolog.zealdyhills.work
+      category: For fun
+    - name: touring.zealdyhills.work
       category: For fun
 
   # What date format to use?
@@ -276,7 +274,7 @@ params:
   #
   # Default: `yearly`
   # STRING; `monthly`, `yearly`, `none`
-  incidentHistoryFormat: "yearly"
+  incidentHistoryFormat: "none"
 
   # Should incident history be hidden?
   #
