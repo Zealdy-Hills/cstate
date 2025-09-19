@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Home Site Status
+title: Homelab Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -142,8 +142,9 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: Homelab
-      description: The main servers are located here.
+    - name: Production
+    - name: Media
+    - name: For fun
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -153,56 +154,58 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: lim.zealdyhills.work
-      category: Homelab
-    - name: memo.zealdyhills.work
-      category: Homelab
     - name: gitea.zealdyhills.work
-      category: Homelab
-    - name: snibox.zealdyhills.work
-      category: Homelab
-    - name: tools.zealdyhills.work
-      category: Homelab
-    - name: nextcloud.zealdyhills.work
-      category: Homelab
-    - name: martell.zealdyhills.work
-      category: Homelab
+      category: Production
     - name: registry.zealdyhills.work
-      category: Homelab
-    - name: sonar.zealdyhills.work
-      category: Homelab
-    - name: metube.zealdyhills.work
-      category: Homelab
-    - name: music.zealdyhills.work
-      category: Homelab
-    - name: gu.zealdyhills.work
-      category: Homelab
-    - name: redmoon-guild.page
-      category: Homelab
-    - name: notes.zealdyhills.work
-      category: Homelab
-    - name: spooty.zealdyhills.work
-      category: Homelab
-    - name: motolog.zealdyhills.work
-      category: Homelab
-    - name: browser.zealdyhills.work
-      category: Homelab
-    - name: find.zealdyhills.work
-      category: Homelab
-    - name: airole.zealdyhills.work
-      category: Homelab
-    - name: touring.zealdyhills.work
-      category: Homelab
-    - name: touring-be.zealdyhills.work
-      category: Homelab
-    - name: research.zealdyhills.work
-      category: Homelab
-    - name: terminal.zealdyhills.work
-      category: Homelab
+      category: Production
+    - name: nextcloud.zealdyhills.work
+      category: Production
     - name: vault.zealdyhills.work
-      category: Homelab
+      category: Production
+    - name: terminal.zealdyhills.work
+      category: Production
+    - name: touring.zealdyhills.work
+      category: Production
+    - name: touring-be.zealdyhills.work
+      category: Production
+    - name: llm.zealdyhills.work
+      category: Production
+    - name: memo.zealdyhills.work
+      category: Production
+    - name: snibox.zealdyhills.work
+      category: Production
+    - name: tools.zealdyhills.work
+      category: Production
+    - name: martell.zealdyhills.work
+      category: Production
+    - name: gu.zealdyhills.work
+      category: Production
+    - name: notes.zealdyhills.work
+      category: Production
+
+    - name: metube.zealdyhills.work
+      category: Media
+    - name: music.zealdyhills.work
+      category: Media
+    - name: spooty.zealdyhills.work
+      category: Media
     - name: invid.zealdyhills.work
-      category: Homelab
+      category: Media
+    - name: sonar.zealdyhills.work
+      category: Media
+
+    - name: redmoon-guild.page
+      category: For fun
+    - name: browser.zealdyhills.work
+      category: For fun
+    - name: find.zealdyhills.work
+      category: For fun
+    - name: airole.zealdyhills.work
+      category: For fun
+    - name: research.zealdyhills.work
+      category: For fun
+    - name: motolog.zealdyhills.work
+      category: For fun
 
   # What date format to use?
   #
